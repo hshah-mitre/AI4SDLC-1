@@ -1,0 +1,21 @@
+site_name: AI for the SDLC 
+repo_url: https://github.com/Code-dot-mil/AI4SDLC/  # Update with your actual repo.  <--this will need to change
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  include_homepage_in_sidebar: False
+  palette:
+    scheme: default  # Options: default (light) or slate (dark mode)
+    primary: blue
+    accent: deep-orange
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - search.suggest
+    - search.highlight
+markdown_extensions:
+  - footnotes
+
+plugins:
+  - search
